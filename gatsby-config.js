@@ -7,9 +7,11 @@ module.exports = {
   plugins: [
     "gatsby-plugin-postcss",
     {
-      resolve: "gatsby-plugin-google-analytics",
+      resolve: "gatsby-plugin-google-tagmanager",
       options: {
-        trackingId: "G-752CN8LSGG",
+        id: "G-F0ZP6WZ98N",
+        includeInDevelopment: false,
+        defaultDataLayer: { platform: "gatsby" },
       },
     },
     "gatsby-plugin-image",
