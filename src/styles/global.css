@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .highlight-title {
+        background: rgb(139,92,246);
+        background: linear-gradient(to right, rgba(139,92,246,1) 0%, rgba(59,130,246,1) 100%);
+        display: inline;
+    }
+    .highlight {
+        background: #3b82f6;
+        /*display: inline;*/
+    }
+}
+
+body {
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%233b82f6' fill-opacity='1' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
